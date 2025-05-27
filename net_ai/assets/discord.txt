@@ -1,0 +1,72 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "description": "PCAP Analysed in {time} from {user}",
+      "color": 16711680,
+      "fields": [
+        {
+          "name": "protocol:",
+          "value": "{protocol}",
+          "inline": true
+        },
+        {
+          "name": "top_ips:",
+          "value": "{top_ips}",
+          "inline": true
+        },
+        {
+          "name": "udp_srcport:",
+          "value": "{udp_srcport}",
+          "inline": true
+        },
+        {
+          "name": "tcp_srcport:",
+          "value": "{tcp_srcport}",
+          "inline": true
+        },
+        {
+          "name": "anomaly_score",
+          "value": "{anomaly_score}",
+          "inline": true
+        },
+        {
+          "name": "Total Incoming IPS:",
+          "value": "{total_ip}",
+          "inline": true
+        },
+        {
+          "name": "avg_packets_per_ip:",
+          "value": "{avg_packets_per_ip}",
+          "inline": true
+        },
+        {
+          "name": "ips_above_avg:",
+          "value": "{ips_above_avg}",
+          "inline": true
+        },
+        {
+          "name": "entropy:",
+          "value": "{entropy}",
+          "inline": true
+        },
+        {
+          "name": "Attacking Source Port:",
+          "value": "{attacking_sport}",
+          "inline": true
+        },
+        {
+          "name": "Attack Vector:",
+          "value": "{attackvector}",
+          "inline": true
+        }
+      ],
+      "author": {
+        "name": "Monitor | Version 1.0",
+        "url": "https://707guard.cc",
+        "icon_url": "https://i.imgur.com/xd7oB52.png"
+      }
+    }
+  ],
+  "attachments": []
+}

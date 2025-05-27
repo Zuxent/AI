@@ -1,0 +1,32 @@
+[
+    {
+      "Operating System": "Linux (kernel 2.4 and 2.6)",
+      "IP Initial TTL": 64,
+      "TCP Window Size": 5840
+    },
+    {
+      "Operating System": "Google's customized Linux",
+      "IP Initial TTL": 64,
+      "TCP Window Size": 5720
+    },
+    {
+      "Operating System": "FreeBSD",
+      "IP Initial TTL": 64,
+      "TCP Window Size": 65535
+    },
+    {
+      "Operating System": "Cisco Router (IOS 12.4)",
+      "IP Initial TTL": 255,
+      "TCP Window Size": 4128
+    },
+    {
+      "Operating System": "Cisco Router (IOS 15.0)",
+      "IP Initial TTL": 255,
+      "TCP Window Size": 65535
+    },
+    {
+      "Operating System": "Windows 10",
+      "IP Initial TTL": 128,
+      "TCP Window Size": 8192
+    } 
+]
