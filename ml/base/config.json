@@ -1,0 +1,37 @@
+{
+    "INTERFACE": "eno1np0",
+    "UPDATE_TIME": 15,
+    "COOKIE_EXPIRATION_TIME": "60",
+    "GAME_FILTERS": [
+        {
+            "fivem-enabled": true,
+            "filters": [
+                {"ip": "192.168.8.152", "port":"30120"}
+            ]
+        }
+    ],
+    "APP_filters": [
+        {
+            "SSH": true,
+            "SSH_filters": [
+                {"ip": "192.168.8.152", "port":"30120"}
+            ],
+            "OPENVPN_TCP": true,
+            "OPENVPN_TCP_filters": [
+                {"ip": "192.168.8.152", "port":"30120"}
+            ],
+            "OPENVPN_UDP": true,
+            "OPENVPN_UDP_filters": [
+                {"ip": "192.168.8.152", "port":"30120"}
+            ]
+        }
+    ],
+    "FILTERS": [
+        {
+            "enabled": true,
+            "block": true,
+            "udp_enabled": true,
+            "udp_dport": 53
+        }
+    ]
+}
