@@ -1,0 +1,48 @@
+[ 19:00:12 ]: Caught Panic: listen tcp :80: bind: address already in use
+
+goroutine 26 [running]:
+goProxy/core/pnc.PanicHndl()
+	/root/l7/balooProxy/core/pnc/panicHandler.go:26 +0x67
+panic({0x7908a0?, 0xc000466a50?})
+	/usr/lib/go-1.22/src/runtime/panic.go:770 +0x132
+goProxy/core/server.Serve()
+	/root/l7/balooProxy/core/server/serve.go:51 +0x345
+created by main.main in goroutine 1
+	/root/l7/balooProxy/main.go:47 +0x206
+
+[ 20:52:00 ]: Caught Panic: [ [0;31m![0m ] [ Cookie Secret Contains 'CHANGE_ME', Refusing To Load ]
+
+goroutine 1 [running]:
+goProxy/core/pnc.PanicHndl()
+	/root/l7/balooProxy/core/pnc/panicHandler.go:26 +0x67
+panic({0x763c60?, 0xc000024690?})
+	/usr/lib/go-1.22/src/runtime/panic.go:770 +0x132
+goProxy/core/config.Load()
+	/root/l7/balooProxy/core/config/init.go:42 +0x1865
+main.main()
+	/root/l7/balooProxy/main.go:36 +0x159
+
+[ 20:55:00 ]: Caught Panic: [ [0;31m![0m ] [ Cookie Secret Contains 'CHANGE_ME', Refusing To Load ]
+
+goroutine 1 [running]:
+goProxy/core/pnc.PanicHndl()
+	/root/l7/balooProxy/core/pnc/panicHandler.go:26 +0x67
+panic({0x763c60?, 0xc000024690?})
+	/usr/lib/go-1.22/src/runtime/panic.go:770 +0x132
+goProxy/core/config.Load()
+	/root/l7/balooProxy/core/config/init.go:42 +0x1865
+main.main()
+	/root/l7/balooProxy/main.go:36 +0x159
+
+[ 02:52:00 ]: Caught Panic: listen tcp :80: bind: address already in use
+
+goroutine 25 [running]:
+goProxy/core/pnc.PanicHndl()
+	/root/l7/balooProxy/core/pnc/panicHandler.go:26 +0x67
+panic({0x7907c0?, 0xc0003c40f0?})
+	/usr/lib/go-1.22/src/runtime/panic.go:770 +0x132
+goProxy/core/server.Serve()
+	/root/l7/balooProxy/core/server/serve.go:51 +0x345
+created by main.main in goroutine 1
+	/root/l7/balooProxy/main.go:35 +0x206
+
